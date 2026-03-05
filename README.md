@@ -6,7 +6,7 @@ Implemented a Linear Phase structure to exploit coefficient symmetry, reducing t
 Performed finite wordlength analysis, verifying that Q7 fixed-point quantization of coefficients maintained filter stability and met stopband attenuation requirements (>20 dB).
 
 * **Implementation & Tools:**
-* **MATLAB/Simulink:** Verified functional correctness using mixed-frequency sine wave test cases.
-* **Verilog:** Developed a structural model using signed carry-save multipliers and Carry Look Ahead (CLA) adders with overflow saturation logic.
+  * **MATLAB/Simulink:** Verified functional correctness using mixed-frequency sine wave test cases.
+  * **Verilog:** Developed a structural model using signed carry-save multipliers and Carry Look Ahead (CLA) adders with overflow saturation logic.
 
 * **Performance:** Achieved a maximum hardware operational frequency of ~71 MHz based on 0.18 µm CMOS delay models.
